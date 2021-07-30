@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MyFrag/>
+    <div id="ok">
+      On the other hand - I'm visible to selenium because I'm outside v-frag
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyFrag from './components/MyFrag.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    MyFrag
+  },
 }
 </script>
 
